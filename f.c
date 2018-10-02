@@ -143,9 +143,7 @@ a=input1.initialtemperature-roomtemp;
 
 b=input1.finaltemperature-roomtemp;
 
-c=(1/t2)*(log(b/a)*K);
 
-t3=-t2*(log((normal-roomtemp)/(a)))*K/((log(a/b)*K));
 
 input1.timeofdeath.hours=abs(t3/60);
 
